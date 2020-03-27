@@ -1,6 +1,6 @@
-import express from 'express';
-import axios from 'axios'
-import redis from 'redis';
+var express = require('express');
+var axios = require('axios');
+var redis =  require('redis');
 const Pool = require('pg').Pool
 const pool = new Pool({
     user:'postgres',

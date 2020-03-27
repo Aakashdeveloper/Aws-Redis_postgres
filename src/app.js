@@ -17,6 +17,10 @@ const client = redis.createClient({
     port:6379
 })
 
+app.get('/',(req,res)=>{
+    res.send('Api is working')
+})
+
 app.get('/data', (req,res) => {
     const userinput = (req.query.country).trim()
     const url = `https://en.m.wikipedia.org/w/api.php?action=parse&format=json&section=0&page=${userinput}`

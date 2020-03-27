@@ -17,9 +17,6 @@
     "EJS"
   ],
   "dependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/register": "^7.4.0",
     "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.1",

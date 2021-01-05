@@ -17,7 +17,7 @@
     "EJS"
   ],
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
